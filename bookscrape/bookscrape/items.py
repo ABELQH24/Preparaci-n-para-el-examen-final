@@ -6,7 +6,9 @@
 import scrapy
 
 
-class BookscrapeItem(scrapy.Item):
+class BooksItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    cita_text = scrapy.Field()
+    author = scrapy.Field()
     pass

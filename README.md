@@ -13,6 +13,12 @@ cd bookscrape/bookscrape/spiders/ ejecutar -> scrapy genspider bookspyder quotes
 dentro de spider -> pip install ipython
 ```
 
+Sobrescribir el archivo:
+```bash
+scrapy crawl bookspyder -O data_citas.csv
+scrapy crawl bookspyder -O data_citas.json
+```
+
 **Preparación para el examen final:**
 Diseñar un spider en Scrapy para el sitio https://quotes.toscrape.com. El objetivo es: 
 
