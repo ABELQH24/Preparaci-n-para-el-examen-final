@@ -1,0 +1,2 @@
+-r requirements.text
+nb-black==1.0.5
