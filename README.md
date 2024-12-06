@@ -4,11 +4,12 @@ python -m venv .venv
 source .venv/Scripts/activate
 python.exe -m pip install --upgrade pip
 pip install -r requirements.txt 
-scrapy startproject bookscrape
+
 ```
 Fase de desarrollo-instalaciones:
 Dentro de bookscrape se ejecutó los siguientes comandos:
 ```bash
+scrapy startproject bookscrape
 cd bookscrape/bookscrape/spiders/ ejecutar -> scrapy genspider bookspyder quotes.toscrape.com
 dentro de spider -> pip install ipython
 ```
